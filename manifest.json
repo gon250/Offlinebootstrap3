@@ -15,7 +15,8 @@
         "48": "bootstrap.png",
         "128": "bootstrap.png" },
     "background": {
-      "scripts": ["background.js"]
+      "scripts": ["background.js"],
+      "persistent": true
     },
     "permissions": [
         "tabs", 
