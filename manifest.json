@@ -10,6 +10,10 @@
           "128": "bootstrap.png" 
         }
     },
+    "icons": { 
+        "16": "bootstrap.png",
+        "48": "bootstrap.png",
+        "128": "bootstrap.png" },
     "background": {
       "scripts": ["background.js"]
     },
