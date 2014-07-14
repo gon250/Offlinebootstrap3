@@ -21,6 +21,12 @@
 <!-- Documentation extras -->
 <link href="assets/css/docs.min.css" rel="stylesheet">
 
+<style>
+  body {
+    min-width:600px !important;
+}
+</style>
+
 </head>
   <body>
 
@@ -29,7 +35,7 @@
                                <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
     <!-- Docs master nav -->
-    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -45,7 +51,7 @@
         <li>
           <a href="getting-started.html">Getting started</a>
         </li>
-        <li class="active">
+        <li>
           <a href="css.html">CSS</a>
         </li>
         <li>
@@ -118,30 +124,6 @@
 <script src="assets/js/jquery.js"></script>
 <script src="dist/js/bootstrap.min.js"></script>
 <script src="assets/js/docs.min.js"></script>
-
-<script>
-  window.twttr = (function (d,s,id) {
-    var t, js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async=1;
-    js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
-    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
-  }(document, "script", "twitter-wjs"));
-</script>
-
-<!-- Analytics
-================================================== -->
-<script>
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
-    t.src = '//secure.gaug.es/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
-</script>
 
   </body>
 </html>
